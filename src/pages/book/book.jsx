@@ -1,10 +1,8 @@
 import React from "react";
 import {useTranslation} from 'react-i18next';
-import "./bookServices.css";
+import "./book.css";
 
-import {Link} from "react-router-dom";
-
-export const BookServices = ({filterProducts}) => {
+export const Book = ({filterProducts}) => {
     const handleBookServiceClick = () => {
         filterProducts("category4");
     };

@@ -25,7 +25,7 @@ export const Services = ({filterProducts}) => {
                     <h1>{t("aboutOurServices")}</h1>
                     <div className="services bookButtons">
                         <Link
-                            to="/BookServices"
+                            to="/book"
                             className="bookButton"
                             onClick={handleBookServiceClick}>
                             {t("bookServiceNow")}

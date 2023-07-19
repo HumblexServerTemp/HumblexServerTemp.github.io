@@ -5,7 +5,7 @@ import { Main } from "./pages/main/main";
 import { Contact } from "./pages/contact/contact";
 import { Services } from "./pages/services/services";
 import { Shop } from "./pages/shop/shop";
-import { BookServices } from "./pages/bookServices/bookServices";
+import { Book } from "./pages/book/book";
 import { Review } from "./pages/review/review";
 import { FAQ } from "./pages/faq/faq";
 import { Benchmark } from "./pages/benchmark/benchmark";
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/BookServices" element={<BookServices />} />
+            <Route path="/book" element={<Book />} />
             <Route path="/review" element={<Review />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/faq" element={<FAQ />} />
