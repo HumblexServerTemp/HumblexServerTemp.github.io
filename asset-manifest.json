@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.3ece933c.css",
-    "main.js": "/react/static/js/main.0110422f.js",
-    "static/media/WelcomePage.jpg": "/react/static/media/WelcomePage.78ab363a8630b58c58ea.jpg",
-    "static/media/ServicesDesc.png": "/react/static/media/ServicesDesc.3b838492906493ec3767.png",
-    "static/media/LenovoLaptop2.PNG": "/react/static/media/LenovoLaptop2.e69e29f37b3fa23871e4.PNG",
-    "static/media/LenovoLaptop3.PNG": "/react/static/media/LenovoLaptop3.b051dd5135a2f2a9b159.PNG",
-    "static/media/LenovoLaptop1.PNG": "/react/static/media/LenovoLaptop1.53485c63783ad777fa0b.PNG",
-    "static/media/IPhone14Pro.png": "/react/static/media/IPhone14Pro.aeadb13d006fc4df4254.png",
-    "static/media/IPhone14.png": "/react/static/media/IPhone14.5e5556cb9cc9869f0592.png",
-    "static/media/Services.jpg": "/react/static/media/Services.ffc9fcf1ac2cfe060e39.jpg",
-    "static/media/IPhone13.png": "/react/static/media/IPhone13.65a534100769bd949775.png",
-    "static/media/IPhoneSE.png": "/react/static/media/IPhoneSE.c545b68b5dd750311181.png",
-    "static/media/DellLaptop1.jpg": "/react/static/media/DellLaptop1.5d91cb1e3ea9ec4f247c.jpg",
-    "static/media/AboutUs.jpg": "/react/static/media/AboutUs.7ce15ea1637af24f3bdd.jpg",
-    "static/media/DellLaptop3.jpg": "/react/static/media/DellLaptop3.21eb52066e3b444a40ea.jpg",
-    "static/media/DellLaptop2.jpg": "/react/static/media/DellLaptop2.e7ae309d4e10dafa9157.jpg",
-    "static/media/ConfirmIcon.png": "/react/static/media/ConfirmIcon.6eae4756ed372cf9ce78.png",
-    "index.html": "/react/index.html",
-    "main.3ece933c.css.map": "/react/static/css/main.3ece933c.css.map",
-    "main.0110422f.js.map": "/react/static/js/main.0110422f.js.map"
+    "main.css": "/static/css/main.3ece933c.css",
+    "main.js": "/static/js/main.513f488c.js",
+    "static/media/WelcomePage.jpg": "/static/media/WelcomePage.78ab363a8630b58c58ea.jpg",
+    "static/media/ServicesDesc.png": "/static/media/ServicesDesc.3b838492906493ec3767.png",
+    "static/media/LenovoLaptop2.PNG": "/static/media/LenovoLaptop2.e69e29f37b3fa23871e4.PNG",
+    "static/media/LenovoLaptop3.PNG": "/static/media/LenovoLaptop3.b051dd5135a2f2a9b159.PNG",
+    "static/media/LenovoLaptop1.PNG": "/static/media/LenovoLaptop1.53485c63783ad777fa0b.PNG",
+    "static/media/IPhone14Pro.png": "/static/media/IPhone14Pro.aeadb13d006fc4df4254.png",
+    "static/media/IPhone14.png": "/static/media/IPhone14.5e5556cb9cc9869f0592.png",
+    "static/media/Services.jpg": "/static/media/Services.ffc9fcf1ac2cfe060e39.jpg",
+    "static/media/IPhone13.png": "/static/media/IPhone13.65a534100769bd949775.png",
+    "static/media/IPhoneSE.png": "/static/media/IPhoneSE.c545b68b5dd750311181.png",
+    "static/media/DellLaptop1.jpg": "/static/media/DellLaptop1.5d91cb1e3ea9ec4f247c.jpg",
+    "static/media/AboutUs.jpg": "/static/media/AboutUs.7ce15ea1637af24f3bdd.jpg",
+    "static/media/DellLaptop3.jpg": "/static/media/DellLaptop3.21eb52066e3b444a40ea.jpg",
+    "static/media/DellLaptop2.jpg": "/static/media/DellLaptop2.e7ae309d4e10dafa9157.jpg",
+    "static/media/ConfirmIcon.png": "/static/media/ConfirmIcon.6eae4756ed372cf9ce78.png",
+    "index.html": "/index.html",
+    "main.3ece933c.css.map": "/static/css/main.3ece933c.css.map",
+    "main.513f488c.js.map": "/static/js/main.513f488c.js.map"
   },
   "entrypoints": [
     "static/css/main.3ece933c.css",
-    "static/js/main.0110422f.js"
+    "static/js/main.513f488c.js"
   ]
 }
