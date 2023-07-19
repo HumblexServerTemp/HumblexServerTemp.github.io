@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ece933c.css",
-    "main.js": "/static/js/main.02afe718.js",
+    "main.js": "/static/js/main.4224ffb3.js",
     "static/media/WelcomePage.jpg": "/static/media/WelcomePage.78ab363a8630b58c58ea.jpg",
     "static/media/ServicesDesc.png": "/static/media/ServicesDesc.3b838492906493ec3767.png",
     "static/media/LenovoLaptop2.PNG": "/static/media/LenovoLaptop2.e69e29f37b3fa23871e4.PNG",
@@ -19,10 +19,10 @@
     "static/media/ConfirmIcon.png": "/static/media/ConfirmIcon.6eae4756ed372cf9ce78.png",
     "index.html": "/index.html",
     "main.3ece933c.css.map": "/static/css/main.3ece933c.css.map",
-    "main.02afe718.js.map": "/static/js/main.02afe718.js.map"
+    "main.4224ffb3.js.map": "/static/js/main.4224ffb3.js.map"
   },
   "entrypoints": [
     "static/css/main.3ece933c.css",
-    "static/js/main.02afe718.js"
+    "static/js/main.4224ffb3.js"
   ]
 }
