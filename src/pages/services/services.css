@@ -1,0 +1,161 @@
+.services .service-image {
+    width: 100%; /* Ensures the image does not exceed the screen width */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.services .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.services .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.services .image-overlay h1 {
+    position: absolute;
+    margin-left: 100px;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    }
+.services .bookButtons {
+    margin-left: 120px;
+    margin-top: 100px;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.services .bookButton {
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #000000d3; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.services .bookButton:hover {
+    background-color: #4b4b4b; /* White background color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.services .about-service-section {
+display: flex;
+align-items: center;
+justify-content: center;
+animation: fadeIn 1s ease-in-out;
+}
+
+.services .about-service-image {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid #ffffff; /* Add a border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.services .about-service-image img {
+max-width: 100%;
+height: auto;
+animation: fadeIn 1s ease-in-out;
+}
+
+.services .about-service-text {
+flex: 1;
+padding: 100px;
+animation: fadeIn 1s ease-in-out;
+}
+
+.services .about-service-text h2 {
+font-size: 24px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+animation: fadeIn 1s ease-in-out;
+}
+.services .about-service-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out;
+    }
+
+.about-service-text p {
+font-size: 16px;
+line-height: 1.5;
+font-family: Georgia;
+margin-left: 80px;
+margin-right: 80px;
+display: flex;
+animation: fadeIn 1s ease-in-out;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f2f2f2;
+padding: 20px;
+animation: fadeIn 3s ease-in-out;
+}
+
+.footer h4 {
+font-size: 18px;
+margin-bottom: 10px;
+animation: fadeIn 4s ease-in-out;
+}
+
+.footer-left, .footer-right {
+flex: 1;
+}
+
+.footer-middle {
+flex: 2;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+}
+
+.footer ul li {
+margin-bottom: 5px;
+}

@@ -1,0 +1,301 @@
+.services .service-image {
+    width: 100%; /* Ensures the image does not exceed the screen width */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.services .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.services .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.services .image-overlay h1 {
+    position: absolute;
+    margin-left: 100px;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    }
+.services .bookButtons {
+    margin-left: 120px;
+    margin-top: 100px;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.services .bookButton {
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #000000d3; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.services .bookButton:hover {
+    background-color: #4b4b4b; /* White background color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.services .about-us-section {
+display: flex;
+align-items: center;
+justify-content: center;
+animation: fadeIn 3s ease-in-out;
+}
+
+.services .about-us-image {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+    animation: fadeIn 3s ease-in-out;
+    border: 1px solid #ffffff; /* Add a border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.services .about-us-image img {
+max-width: 100%;
+height: auto;
+animation: fadeIn 3s ease-in-out;
+}
+
+.services .about-us-text {
+flex: 1;
+padding: 100px;
+animation: fadeIn 3s ease-in-out;
+}
+
+.services .about-us-text h2 {
+font-size: 24px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+animation: fadeIn 3s ease-in-out;
+}
+.services .about-us-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 3s ease-in-out;
+    }
+
+.about-us-text p {
+font-size: 16px;
+line-height: 1.5;
+font-family: Georgia;
+margin-left: 80px;
+margin-right: 80px;
+display: flex;
+animation: fadeIn 3s ease-in-out;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f2f2f2;
+padding: 20px;
+animation: fadeIn 3s ease-in-out;
+}
+
+.footer h4 {
+font-size: 18px;
+margin-bottom: 10px;
+animation: fadeIn 4s ease-in-out;
+}
+
+.footer-left, .footer-right {
+flex: 1;
+}
+
+.footer-middle {
+flex: 2;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+}
+
+.footer ul li {
+margin-bottom: 5px;
+}
+
+.select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+  
+  .contact_section {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .contact_section .contact_form-container input {
+    border: none;
+    outline: none;
+    color: #fefefe;
+    height: 45px;
+    width: 600px;
+    margin: 15px 0;
+    padding-left: 15px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+  }
+  
+  .contact_section .contact_form-container label {
+    border: none;
+    outline: none;
+    color: #fefefe;
+    width: 100%;
+    margin: 15px 0;
+    background-color: transparent;
+  }
+  
+  .contact_section .contact_form-container input:-ms-input-placeholder {
+    color: #fafafa;
+    text-transform: uppercase;
+  }
+  
+  .contact_section .contact_form-container input::-ms-input-placeholder {
+    color: #fafafa;
+    text-transform: uppercase;
+  }
+  
+  .contact_section .contact_form-container input::placeholder {
+    color: #fafafa;
+    text-transform: uppercase;
+  }
+  
+  .contact_section .contact_form-container input.message_input {
+    height: 75px;
+  }
+  
+  .contact_section .contact_form-container input:focus {
+    border-bottom: 1px solid #96bb7c;
+  }
+  
+  .contact_section .contact_form-container input[type="date"]::-webkit-calendar-picker-indicator,
+  .contact_section .contact_form-container input[type="time"]::-webkit-calendar-picker-indicator {
+    color: #fff;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  
+  .contact_section .contact_form-container .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .contact_section .contact_form-container button {
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #96bb7c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #96bb7c;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .contact_section .contact_form-container button:hover {
+    background-color: transparent;
+    color: #96bb7c;
+  }
+  
+  .contact_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;        
+  }
+  
+  .contact_bg_box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top right;
+       object-position: top right;
+  }
+  
+  .contact_bg_box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 5px solid white; /* Add white border */
+    box-sizing: border-box;
+  }
+  .btn-book-appointment {
+    font-size: 25px; 
+  }
