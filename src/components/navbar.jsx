@@ -25,6 +25,7 @@ export const Navbar = () => {
             <div className="links">
                 <Link to="/">{t('HomeButton')}</Link>
                 <Link to="/services">{t('ServicesButton')}</Link>
+                <Link path="/book"></Link>
                 <Link to="/shop">{t('ShopButton')}</Link>
                 <Link to="/review">{t('ReviewButton')}</Link>
                 <Link to="/faq">{t('FAQButton')}</Link>
