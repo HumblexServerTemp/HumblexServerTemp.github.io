@@ -2,7 +2,7 @@ import React from "react";
 import {useTranslation} from 'react-i18next';
 import "./bookservice.css";
 
-export const Book = () => {
+export const BookService = () => {
     const {t} = useTranslation();
     return (
         <div>
