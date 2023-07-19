@@ -28,7 +28,7 @@ export const Services = ({filterProducts}) => {
                             to="/book"
                             className="bookButton"
                             onClick={handleBookServiceClick}>
-                            {t("bookServiceNow")}
+                            <a href="/book">{t("bookServiceNow")} </a>
                         </Link>
                     </div>
                 </div>

@@ -2,10 +2,7 @@ import React from "react";
 import {useTranslation} from 'react-i18next';
 import "./book.css";
 
-export const Book = ({filterProducts}) => {
-    const handleBookServiceClick = () => {
-        filterProducts("category4");
-    };
+export const Book = () => {
     const {t} = useTranslation();
     return (
         <div>
