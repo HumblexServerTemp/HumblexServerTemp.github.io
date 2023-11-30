@@ -3,7 +3,7 @@
 - A Simple Tech Store/Support Website
 
 # How to deploy/launch
-- Small GH-Page Bug where Booking does not work https://youtu.be/G0JjSY4H9ZE.
+- Small GH-Page Bug where Booking does not work https://youtu.be/G0JjSY4H9ZE <-- LocalHost Example.
 - Download the zip file
 - Do the following commands:
 ```css
